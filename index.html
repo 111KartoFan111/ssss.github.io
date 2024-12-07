@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap" />
+</head>
+<body>
+    <div class="mac-book-air-1">
+        <header class="header">
+            <div class="frame-9">
+                <div class="rectangle-16"></div>
+                <nav class="frame-161">
+                    <a class="div" href="/">Главная</a>
+                    <a class="div" href="about">О нас</a>
+                    <a class="div" href="price">Цены</a>
+                    <a class="div" href="news">Новости</a>
+                </nav>
+            </div>
+            <div class="frame-7">
+                <a class="div3" href="https://wa.clck.bar/77007553871">
+                    Связаться с нами
+                </a>
+            </div>
+            <img class="frame-169-1" src="{{ url_for('static', filename='img/Frame169-1.svg') }}" alt="Logo" />
+        </header>
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="component">
+                <div class="div-col">
+                    <div class="div4">
+                        <img class="frame-169-2" src="{{ url_for('static', filename='img/Frame169-1.svg') }}" alt="Footer Logo" />
+                    </div>
+                    <div class="copyright-2013-2023-reform-hosting-all-rights-reserved">
+                        Copyright © 2024. All Rights Reserved.
+                    </div>
+                </div>
+                <div class="frame-143">
+                    <div class="div5">
+                        Контакты
+                    </div>
+                    <div class="frame-144">
+                        <a class="frame-145" href="tel:+77007553871">
+                            <div class="phone-line">
+                                <img class="group" src="{{ url_for('static', filename='img/phone-line.svg') }}" alt="Phone Icon" />
+                            </div>
+                            <div class="_7-700-755-3871">+7 700 755 3871</div>
+                        </a>
+                        <a class="frame-146" href="https://www.instagram.com/sp_program_kz/">
+                            <div class="instagram-line">
+                                <img class="group2" src="{{ url_for('static', filename='img/instagram-line.svg') }}" alt="Instagram Icon" />
+                            </div>
+                            <div class="sp-program-kz">sp_program_kz</div>
+                        </a>
+                        <a class="frame-147" href="https://wa.clck.bar/77007553871">
+                            <div class="whatsapp-line">
+                                <img class="group3" src="{{ url_for('static', filename='img/whatsapp-line.svg') }}" alt="WhatsApp Icon" />
+                            </div>
+                            <div class="_7-700-755-3871">+7 700 755 3871</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <section class="frame-92">
+              <div class="rectangle-18">
+                  <span>
+                      <span class="_24-7-7-700-755-3871-span">Нужна помощь?</span>
+                      <span class="_24-7-7-700-755-3871-span">Позвоните нам 24/7:<br /></span>
+                      <span class="_24-7-7-700-755-3871-span5">+7 700 755 3871</span>
+                  </span>
+              </div>
+          </section>
+        </footer>
+        <!-- Заканчиваются блок footer -->
+
+<!-- Новости -->
+        <section class="news">
+          <div class="news-left">
+              <div class="news2">
+                  <span>
+                      <span class="div-2-span">Новости<br /></span>
+                      <span class="div-2-span2">
+                          Новости, предупреждения о плановых работах,
+                          обновление тарифов, вся важная информация.
+                      </span>
+                  </span>
+              </div>
+              <a href="news" class="frame-94">
+                  <div class="allnews">Все новости</div>
+              </a>
+          </div>
+          <div class="news-list">
+            <div class="news-container">
+                <div class="rectangle">
+                    <h3>{{ data[0][0] }}</h3>
+                    <p><strong>{{ data[0][1] }}</strong></p>
+                    <p>{{ data[0][2] }}</p>
+                </div>
+                <div class="rectangle">
+                    <h3>{{ data[1][0] }}</h3>
+                    <p><strong>{{ data[1][1] }}</strong></p>
+                    <p>{{ data[1][2] }}</p>
+                </div>
+            </div>
+        </div>
+      </section>
+<!-- Заканчиваются блок новости -->
+    </div>
+</body>
+</html>
