@@ -1,0 +1,485 @@
+.mac-book-air-1,
+.mac-book-air-1 * {
+  box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Важно для расчёта высоты */
+}
+.mac-book-air-1 {
+  background: #f3f3f3;
+  height: auto;
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  padding: 20px;
+}
+a{text-decoration: none;}
+.header {
+    background: #ffffff;
+    border-radius: 30px;
+    width: 1227px;
+    height: 100px;
+    position: absolute;
+    left: calc(50% - 627px);
+    top: 40px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
+      inset 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  .frame-9 {
+    width: 522px;
+    height: 60px;
+    position: absolute;
+    left: calc(50% - 260.5px);
+    top: calc(50% - 30px);
+    text-decoration: none
+  }
+  .rectangle-16 {
+    background: #22417a;
+    border-radius: 40px;
+    border-style: solid;
+    border-color: #180d5b;
+    border-width: 3px;
+    width: 522px;
+    height: 60px;
+    position: absolute;
+    left: calc(50% - 261px);
+    top: 0px;
+    box-shadow: 5px 5px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  .frame-161 {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    justify-content: flex-start;
+    width: 406px;
+    position: absolute;
+    left: calc(50% - 203px);
+    text-decoration: none;
+    top: calc(50% - 12px);
+  }
+  .div {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 20px;
+    line-height: 120%;
+    font-weight: 400;
+    position: relative;
+    text-decoration: none;
+    transition: color 0.5s ease;
+    -webkit-transition: color 0.5s ease;
+    -moz-transition: color 0.5s ease;
+    -ms-transition: color 0.5s ease;
+    -o-transition: color 0.5s ease;
+  }
+  .frame-7 {
+    background: #396caa;
+    border-radius: 40px;
+    border-style: solid;
+    border-color: #180d5b;
+    border-width: 3px;
+    padding: 15px 35px 15px 35px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    position: absolute;
+    left: 990px;
+    top: calc(50% - 30px);
+    box-shadow: 5px 5px 4px 0px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+  }
+  .div3 {
+    color: #ffffff;
+    text-align: left;
+    font-family: var(--07-font-family, "Poppins-Regular", sans-serif);
+    font-size: var(--07-font-size, 16px);
+    line-height: var(--07-line-height, 120%);
+    font-weight: var(--07-font-weight, 400);
+    position: relative;
+    text-decoration: none;
+  }
+.frame-169-1 {
+    width: 162px;
+    height: 79px;
+    position: absolute;
+    left: 54px;
+    top: 14px;
+    overflow: visible;
+}
+/*footer*/
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 195px;
+  z-index: 1000; /* Устанавливаем приоритет */
+  box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.2); /* Опционально: добавить тень */
+}
+
+.component {
+  background: #555555;
+  border-style: solid;
+  border-color: #173d7a;
+  border-width: 3px 0px 0px 0px;
+  padding: 51px 34.5px 20px 34.5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: calc(50% - 98.5px);
+}
+
+.frame-169-2 {
+  left: 30px;
+  width: 162px;
+  height: 79px;
+  position: absolute;
+  top: -80px;
+  overflow: visible;
+}
+.div-col {
+  padding: 0px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.div4 {
+  text-align: left;
+  font-family: "Poppins-Black", sans-serif;
+  font-size: 32px;
+  line-height: 120%;
+  font-weight: 900;
+  position: relative;
+}
+.copyright-2013-2023-reform-hosting-all-rights-reserved {
+  color: #9da7b0;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-143 {
+  flex-shrink: 0;
+  width: 211px;
+  height: 155px;
+  position: relative;
+}
+.div5 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 113px;
+  height: 24px;
+  text-decoration: none;
+}
+.frame-144 {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 24px;
+  position: absolute;
+  left: 0px;
+  top: 33px;
+}
+.frame-145 {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  gap: 9px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: 24px;
+  position: relative;
+}
+.phone-line {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+}
+.group {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  overflow: visible;
+}
+._7-700-755-3871 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: relative;
+  width: 153px;
+  height: 24px;
+}
+.frame-146 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: 24px;
+  position: relative;
+  text-decoration: none;
+}
+.instagram-line {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+}
+.group2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  overflow: visible;
+}
+.sp-program-kz {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: relative;
+  width: 170px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-147 {
+  display: flex;
+  flex-direction: row;
+  gap: 9px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: 24px;
+  position: relative;
+  text-decoration: none;
+}
+.whatsapp-line {
+  align-self: stretch;
+  flex-shrink: 0;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+}
+.group3 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  overflow: visible;
+}
+.frame-92 {
+  width: 349px;
+  height: 105px;
+  position: absolute;
+  left: calc(50% - 152px);
+  bottom: 140px;
+}
+.rectangle-18 {
+  background: #396caa;
+  border-radius: 40px;
+  width: 340px;
+  height: 105px;
+  position: absolute;
+  left: 50%; /* Центрируем блок по горизонтали */
+  top: 50%;  /* Центрируем блок по вертикали */
+  transform: translate(-50%, -50%); /* Сдвигаем блок на 50% ширины и высоты, чтобы точно центрировать */
+  display: flex;
+  flex-direction: column; /* Располагаем элементы вертикально */
+  align-items: center; /* Центрируем по горизонтали */
+  justify-content: center; /* Центрируем по вертикали */
+  text-align: center; /* Центрируем текст внутри элементов */
+  padding: 10px; /* Добавляем небольшой внутренний отступ для улучшения внешнего вида */
+}
+
+._24-7-7-700-755-3871-span {
+  color: #ffffff;
+  font-family: "Poppins-Black", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 900;
+}
+._24-7-7-700-755-3871-span5 {
+  color: #ffffff;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 600;
+  padding-top: 5px;
+}
+
+/* Новости */
+.news {
+  position: absolute;
+  bottom: 16%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 10%;
+  width: 90%;
+  max-width: 1440px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.news-left {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  max-width: 50%;
+  width: 100%;
+  padding-right: 20px;
+}
+
+.news2 {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.div-2-span {
+  color: #000000;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 600;
+}
+
+.div-2-span2 {
+  color: #877777;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.frame-94 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.allnews {
+  background-color: #d9d9d9;
+  padding: 10px 20px;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #000000;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 5px;
+  max-width: fit-content;
+}
+
+
+.news-list {
+  width: 80%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px 0;
+  overflow: hidden;
+}
+
+.news-container {
+  display: flex;
+  gap: 20px;
+  overflow-y: auto;
+  scroll-snap-type: x mandatory;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.news-container::-webkit-scrollbar {
+  display: none;
+}
+
+.rectangle {
+  width: 50%;
+  height: auto;
+  background: #d9d9d9;
+  border-radius: 15px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  display: flex;
+  gap: 10px;
+  scroll-snap-align: start;
+  min-width: 300px;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+.rectangle h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.rectangle p {
+  font-size: 20px;
+  color: #666;
+  flex-grow: 1;
+}
+
+.rectangle strong {
+  font-weight: bold;
+}
+
+.rectangle p:last-child {
+  margin-bottom: 0;
+}
+
+.rectangle:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.15);
+}
